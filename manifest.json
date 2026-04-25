@@ -1,9 +1,8 @@
 {
-    "name": "ShowTime – Fête de la musique 2026",
+    "name": "ShowTime - Fete de la musique 2026",
     "short_name": "ShowTime",
-    "description": "Application permettant de consulter les programmes, horaires et documents des groupes de la Fête de
-  la musique 2026.",
-  "start_url": ".",
+    "description": "Application permettant de consulter les programmes, horaires et documents des groupes de la Fete de la musique 2026.",
+    "start_url": ".",
     "scope": ".",
     "display": "standalone",
     "orientation": "portrait-primary",
