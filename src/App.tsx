@@ -3,11 +3,12 @@ import { Square, FileText, ExternalLink, Download } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import BackgroundGradient from "@/components/BackgroundGradient";
-// IMPORT DOCUMENTS GROUPES 
-// --------- Chavabien --------- 
-import chavabienSetlist from '@/assets/documents/chavabien/chavabien-setlist.jpg';
+
+// IMPORT DOCUMENTS GROUPES
+// --------- Chavabien ---------
+import chavabienSetlist from "@/assets/documents/chavabien/chavabien-setlist.jpg";
 import chavabienFicheT from "@/assets/documents/chavabien/chavabien-fiche-tech.jpg";
-// --------- Grp de Rock --------- 
+// --------- Grp de Rock ---------
 import grpderockSetlist from "@/assets/documents/groupe-de-rock/grp-de-rock-setlist.jpg";
 
 // Types
@@ -144,6 +145,7 @@ export default function App() {
   return (
     <div className="h-screen flex flex-col font-sans text-slate-300 overflow-hidden bg-transparent">
       <BackgroundGradient />
+
       {/* Desktop Navigation */}
       <nav className="hidden md:block border-b border-white/5 bg-black/40 backdrop-blur-xl sticky top-0 z-40 shrink-0">
         <div className="max-w-7xl mx-auto flex">
@@ -272,7 +274,7 @@ export default function App() {
       </main>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="md:hidden border-t border-white/10 bg-black/60 backdrop-blur-2xl pb-3 pt-3 shrink-0 px-2">
+      <nav className="fixed bottom-0 left-0 right-0 md:hidden border-t border-white/10 bg-black/20 backdrop-blur-2xl pb-3 pt-3 shrink-0 px-2 z-40">
         <div className="flex gap-1">
           {GROUPS_DATA.map((group) => (
             <button
@@ -347,10 +349,7 @@ export default function App() {
                     />
                   ) : (
                     <div className="flex h-full w-full flex-col items-center justify-center p-8 text-slate-300">
-                      <FileText
-                        size={48}
-                        className="mb-4"
-                      />
+                      <FileText size={48} className="mb-4" />
                       <p className="text-center">
                         Le fichier PDF ne peut pas être prévisualisé directement
                         <br className="hidden sm:inline" />

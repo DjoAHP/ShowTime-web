@@ -44,7 +44,7 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
+        ignoreURLParametersMatching: [/__WB_REVISION__/],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024 // 10 MB
       }
     })
