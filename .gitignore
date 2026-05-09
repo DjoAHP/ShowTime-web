@@ -34,4 +34,4 @@ Thumbs.db
 
 # Vite
 .cache
-temp
+.openclaude-profile.json

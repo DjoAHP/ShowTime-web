@@ -10,6 +10,7 @@ import chavabienSetlist from "@/assets/documents/chavabien/chavabien-setlist.jpg
 import chavabienFicheT from "@/assets/documents/chavabien/chavabien-fiche-tech.jpg";
 // --------- Grp de Rock ---------
 import grpderockSetlist from "@/assets/documents/groupe-de-rock/grp-de-rock-setlist.jpg";
+import grpderockFicheT from "@/assets/documents/groupe-de-rock/grp-de-rock-fiche-tech.jpg";
 
 // Types
 interface Document {
@@ -90,7 +91,7 @@ const GROUPS_DATA: GroupData[] = [
           id: "5",
           name: "FicheTech-GrpDeRock.jpg",
           type: "image",
-          url: "#",
+          url: grpderockFicheT,
         },
         {
           id: "6",

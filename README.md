@@ -1,5 +1,6 @@
 # ShowTime - Fête de la musique 2026
 
+
 Une application web permettant de consulter les programmes, horaires et documents techniques des groupes participants à la Fête de la musique 2026 à Jard, Epernay.
 
 ## 🚀 Fonctionnalités
