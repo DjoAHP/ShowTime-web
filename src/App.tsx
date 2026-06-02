@@ -44,10 +44,10 @@ const GROUPS_DATA: GroupData[] = [
     genre: "Variété / Pop",
     concert: {
       lieu: "Jard, Epernay",
-      heureBalances: "16:00",
-      heureConcert: "20:30",
-      heureDebut: "21:00",
-      heureFin: "22:00",
+      heureBalances: "16:30",
+      heureConcert: "18h30",
+      heureDebut: "19:00",
+      heureFin: "20:00",
       documents: [
         {
           id: "1",
@@ -61,12 +61,12 @@ const GROUPS_DATA: GroupData[] = [
           type: "image",
           url: chavabienFicheT,
         },
-        {
-          id: "3",
-          name: "PlanDeScene-Chavabien.jpg",
-          type: "image",
-          url: "#",
-        },
+        // {
+        //   id: "3",
+        //   name: "PlanDeScene-Chavabien.jpg",
+        //   type: "image",
+        //   url: "#",
+        // },
       ],
     },
   },
@@ -76,10 +76,10 @@ const GROUPS_DATA: GroupData[] = [
     genre: "Classic Rock / Hard Rock",
     concert: {
       lieu: "Jard, Epernay",
-      heureBalances: "15:00",
+      heureBalances: "21:15",
       heureConcert: "22:00",
-      heureDebut: "22:30",
-      heureFin: "23:30",
+      heureDebut: "22:00",
+      heureFin: "23:00",
       documents: [
         {
           id: "4",
@@ -93,12 +93,12 @@ const GROUPS_DATA: GroupData[] = [
           type: "image",
           url: grpderockFicheT,
         },
-        {
-          id: "6",
-          name: "PlanDeScene-GrpDeRock.jpg",
-          type: "image",
-          url: "#",
-        },
+        // {
+        //   id: "6",
+        //   name: "PlanDeScene-GrpDeRock.jpg",
+        //   type: "image",
+        //   url: "#",
+        // },
       ],
     },
   },
@@ -109,10 +109,10 @@ const GROUPS_DATA: GroupData[] = [
     genre: "Dub / Electro",
     concert: {
       lieu: "Jard, Epernay",
-      heureBalances: "17:00",
-      heureConcert: "23:00",
-      heureDebut: "23:30",
-      heureFin: "00:30",
+      heureBalances: "23:00",
+      heureConcert: "23:15",
+      heureDebut: "23:15",
+      heureFin: "00:00",
       documents: [
         {
           id: "7",
@@ -126,12 +126,12 @@ const GROUPS_DATA: GroupData[] = [
           type: "image",
           url: "#",
         },
-        {
-          id: "9",
-          name: "PlanDeScene-Chenapan.jpg",
-          type: "image",
-          url: "#",
-        },
+        // {
+        //   id: "9",
+        //   name: "PlanDeScene-Chenapan.jpg",
+        //   type: "image",
+        //   url: "#",
+        // },
       ],
     },
   },
