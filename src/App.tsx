@@ -43,7 +43,7 @@ const GROUPS_DATA: GroupData[] = [
     name: "Chavabien",
     genre: "Variété / Pop",
     concert: {
-      lieu: "Jard, Epernay",
+      lieu: "Esplanade Charles de Gaulle, Epernay",
       heureBalances: "16:30",
       heureConcert: "18h30",
       heureDebut: "19:00",
@@ -75,7 +75,7 @@ const GROUPS_DATA: GroupData[] = [
     name: "Grp de Rock",
     genre: "Classic Rock / Hard Rock",
     concert: {
-      lieu: "Jard, Epernay",
+      lieu: "Esplanade Charles de Gaulle, Epernay",
       heureBalances: "21:15",
       heureConcert: "22:00",
       heureDebut: "22:00",
@@ -108,7 +108,7 @@ const GROUPS_DATA: GroupData[] = [
     name: "Chenapan Dub",
     genre: "Dub / Electro",
     concert: {
-      lieu: "Jard, Epernay",
+      lieu: "Esplanade Charles de Gaulle, Epernay",
       heureBalances: "23:00",
       heureConcert: "23:15",
       heureDebut: "23:15",
